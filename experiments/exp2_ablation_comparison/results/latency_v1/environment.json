@@ -1,0 +1,7 @@
+{
+  "device": "cpu",
+  "torch": "2.11.0+cpu",
+  "torch_threads": 1,
+  "ode_steps": 8,
+  "model_loading_excluded": true
+}

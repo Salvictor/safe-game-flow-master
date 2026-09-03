@@ -1,0 +1,15 @@
+{
+  "scenarios": 12,
+  "seeds": [
+    1
+  ],
+  "dt": 0.01,
+  "dynamics": "paired 3D double integrator",
+  "physical_collision_distance": 0.25,
+  "hocbf_distance": 0.36,
+  "game_actions": [
+    "go",
+    "yield"
+  ],
+  "yield_delay": 0.8
+}

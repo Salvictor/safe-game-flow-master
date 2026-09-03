@@ -1,0 +1,145 @@
+[
+  {
+    "method": "boundary_trajectory",
+    "ode_steps": 1,
+    "queries": 128,
+    "median_ms": 4.074949999999999,
+    "p95_ms": 5.6624,
+    "p99_ms": 6.371565000000003,
+    "mean_ms": 4.251503125,
+    "std_ms": 0.8038129876067416,
+    "success_rate": 0.0
+  },
+  {
+    "method": "boundary_trajectory",
+    "ode_steps": 4,
+    "queries": 128,
+    "median_ms": 12.066600000000001,
+    "p95_ms": 16.723,
+    "p99_ms": 17.843052,
+    "mean_ms": 12.924225781250001,
+    "std_ms": 2.114170338798669,
+    "success_rate": 0.0
+  },
+  {
+    "method": "boundary_trajectory",
+    "ode_steps": 8,
+    "queries": 128,
+    "median_ms": 23.2107,
+    "p95_ms": 29.993184999999997,
+    "p99_ms": 32.256640000000004,
+    "mean_ms": 23.813610937500002,
+    "std_ms": 3.234702449488952,
+    "success_rate": 0.0
+  },
+  {
+    "method": "boundary_trajectory",
+    "ode_steps": 16,
+    "queries": 128,
+    "median_ms": 45.59455,
+    "p95_ms": 55.68999999999999,
+    "p99_ms": 57.928344,
+    "mean_ms": 46.550526562499996,
+    "std_ms": 4.725096597479183,
+    "success_rate": 0.0
+  },
+  {
+    "method": "projected_velocity",
+    "ode_steps": 1,
+    "queries": 128,
+    "median_ms": 3.8885,
+    "p95_ms": 5.2511849999999995,
+    "p99_ms": 5.891549,
+    "mean_ms": 3.99574609375,
+    "std_ms": 0.8750019010015204,
+    "success_rate": 0.0
+  },
+  {
+    "method": "projected_velocity",
+    "ode_steps": 4,
+    "queries": 128,
+    "median_ms": 12.213049999999999,
+    "p95_ms": 18.385215,
+    "p99_ms": 29.298298000000027,
+    "mean_ms": 13.213551562500001,
+    "std_ms": 3.583940103241067,
+    "success_rate": 0.6015625
+  },
+  {
+    "method": "projected_velocity",
+    "ode_steps": 8,
+    "queries": 128,
+    "median_ms": 21.91965,
+    "p95_ms": 27.80867,
+    "p99_ms": 29.091663000000004,
+    "mean_ms": 22.4543453125,
+    "std_ms": 2.4416575330698516,
+    "success_rate": 0.703125
+  },
+  {
+    "method": "projected_velocity",
+    "ode_steps": 16,
+    "queries": 128,
+    "median_ms": 45.6678,
+    "p95_ms": 55.01131999999999,
+    "p99_ms": 58.20188,
+    "mean_ms": 46.29654296875,
+    "std_ms": 4.891586134296473,
+    "success_rate": 0.7109375
+  },
+  {
+    "method": "proposed_safe",
+    "ode_steps": 1,
+    "queries": 128,
+    "median_ms": 187.3897,
+    "p95_ms": 209.07154,
+    "p99_ms": 217.68130200000002,
+    "mean_ms": 188.533896875,
+    "std_ms": 11.060468753126505,
+    "success_rate": 1.0
+  },
+  {
+    "method": "proposed_safe",
+    "ode_steps": 4,
+    "queries": 128,
+    "median_ms": 628.6438499999999,
+    "p95_ms": 709.14387,
+    "p99_ms": 762.4642040000001,
+    "mean_ms": 637.6092625,
+    "std_ms": 41.03444330173696,
+    "success_rate": 1.0
+  },
+  {
+    "method": "proposed_safe",
+    "ode_steps": 8,
+    "queries": 128,
+    "median_ms": 1169.63755,
+    "p95_ms": 1382.7609999999995,
+    "p99_ms": 1440.572867,
+    "mean_ms": 1192.9211312500001,
+    "std_ms": 88.45591764559548,
+    "success_rate": 1.0
+  },
+  {
+    "method": "proposed_safe",
+    "ode_steps": 16,
+    "queries": 128,
+    "median_ms": 2386.5553,
+    "p95_ms": 2639.1315999999997,
+    "p99_ms": 2699.475489,
+    "mean_ms": 2397.79812578125,
+    "std_ms": 138.15744455437311,
+    "success_rate": 1.0
+  },
+  {
+    "method": "quintic_skeleton",
+    "ode_steps": 0,
+    "queries": 128,
+    "median_ms": 0.23085,
+    "p95_ms": 0.354165,
+    "p99_ms": 0.404171,
+    "mean_ms": 0.2475328125,
+    "std_ms": 0.05794988482372227,
+    "success_rate": 1.0
+  }
+]

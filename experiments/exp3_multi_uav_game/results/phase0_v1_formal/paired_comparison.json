@@ -1,0 +1,52 @@
+[
+  {
+    "metric": "minimum_separation_m",
+    "label": "Minimum separation (m)",
+    "paired_runs": 384,
+    "proposed_minus_hocbf_mean": 0.042833583152798255,
+    "ci95_lower": 0.04064779202224459,
+    "ci95_upper": 0.04502749209187375
+  },
+  {
+    "metric": "hocbf_intervention_rate",
+    "label": "HOCBF intervention rate",
+    "paired_runs": 384,
+    "proposed_minus_hocbf_mean": -0.23430550541996564,
+    "ci95_lower": -0.2439730994944144,
+    "ci95_upper": -0.22413641643885107
+  },
+  {
+    "metric": "completion_time_s",
+    "label": "Completion time (s)",
+    "paired_runs": 384,
+    "proposed_minus_hocbf_mean": 0.2849744702702051,
+    "ci95_lower": 0.26931045516424584,
+    "ci95_upper": 0.3000789450780048
+  },
+  {
+    "metric": "social_payoff",
+    "label": "Social payoff",
+    "paired_runs": 384,
+    "proposed_minus_hocbf_mean": -0.16281161125161261,
+    "ci95_lower": -0.16988014215123046,
+    "ci95_upper": -0.15546222679536773
+  },
+  {
+    "metric": "maximum_acceleration_mps2",
+    "label": "Maximum acceleration (m/s^2)",
+    "paired_runs": 384,
+    "proposed_minus_hocbf_mean": 0.005082281566775464,
+    "ci95_lower": 0.0005977551908860677,
+    "ci95_upper": 0.009392350042407117
+  },
+  {
+    "metric": "hocbf_margin_violation_rate",
+    "label": "Rate below 0.36 m HOCBF margin",
+    "paired_runs": 384,
+    "hocbf_only_rate": 0.2708333333333333,
+    "proposed_rate": 0.0,
+    "proposed_minus_hocbf_mean": -0.2708333333333333,
+    "ci95_lower": -0.3151041666666667,
+    "ci95_upper": -0.2265625
+  }
+]

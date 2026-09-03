@@ -1,0 +1,79 @@
+[
+  {
+    "method": "boundary_trajectory",
+    "ode_steps": 1,
+    "queries": 16,
+    "median_ms": 3.2965,
+    "p95_ms": 3.809625,
+    "p99_ms": 3.908565,
+    "mean_ms": 3.3865125000000003,
+    "std_ms": 0.2312352449346769,
+    "success_rate": 0.0
+  },
+  {
+    "method": "boundary_trajectory",
+    "ode_steps": 8,
+    "queries": 16,
+    "median_ms": 19.74175,
+    "p95_ms": 20.5423,
+    "p99_ms": 20.6011,
+    "mean_ms": 19.82845625,
+    "std_ms": 0.380373940517749,
+    "success_rate": 0.0
+  },
+  {
+    "method": "projected_velocity",
+    "ode_steps": 1,
+    "queries": 16,
+    "median_ms": 2.9013,
+    "p95_ms": 3.371225,
+    "p99_ms": 3.500405,
+    "mean_ms": 2.96256875,
+    "std_ms": 0.19381334566621913,
+    "success_rate": 0.0
+  },
+  {
+    "method": "projected_velocity",
+    "ode_steps": 8,
+    "queries": 16,
+    "median_ms": 20.15775,
+    "p95_ms": 20.89125,
+    "p99_ms": 20.95665,
+    "mean_ms": 20.21644375,
+    "std_ms": 0.4335795582031822,
+    "success_rate": 0.8125
+  },
+  {
+    "method": "proposed_safe",
+    "ode_steps": 1,
+    "queries": 16,
+    "median_ms": 46.42315,
+    "p95_ms": 117.9042,
+    "p99_ms": 119.07132,
+    "mean_ms": 60.80860625,
+    "std_ms": 28.62869608767792,
+    "success_rate": 1.0
+  },
+  {
+    "method": "proposed_safe",
+    "ode_steps": 8,
+    "queries": 16,
+    "median_ms": 91.8185,
+    "p95_ms": 764.1235750000001,
+    "p99_ms": 1031.270155,
+    "mean_ms": 234.96954375,
+    "std_ms": 283.72353481033133,
+    "success_rate": 1.0
+  },
+  {
+    "method": "quintic_skeleton",
+    "ode_steps": 0,
+    "queries": 16,
+    "median_ms": 0.19569999999999999,
+    "p95_ms": 0.215525,
+    "p99_ms": 0.228305,
+    "mean_ms": 0.19861875,
+    "std_ms": 0.011585405689918676,
+    "success_rate": 1.0
+  }
+]

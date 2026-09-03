@@ -1,0 +1,362 @@
+[
+  {
+    "scenario": "moderate_uncertainty",
+    "baseline": "quintic_skeleton",
+    "metric": "tracking_rmse_m",
+    "paired_runs": 72,
+    "baseline_minus_proposed_mean": -0.0006734592805438396,
+    "ci95_lower": -0.0014703168305071708,
+    "ci95_upper": 5.780433562659719e-05,
+    "conclusion": "inconclusive"
+  },
+  {
+    "scenario": "moderate_uncertainty",
+    "baseline": "quintic_skeleton",
+    "metric": "maximum_tracking_error_m",
+    "paired_runs": 72,
+    "baseline_minus_proposed_mean": -0.005489861885428007,
+    "ci95_lower": -0.007195980404405372,
+    "ci95_upper": -0.0039852604674435665,
+    "conclusion": "proposed_worse"
+  },
+  {
+    "scenario": "moderate_uncertainty",
+    "baseline": "quintic_skeleton",
+    "metric": "crossing_time_error_s",
+    "paired_runs": 72,
+    "baseline_minus_proposed_mean": -0.0008281368502762115,
+    "ci95_lower": -0.0022606922283340105,
+    "ci95_upper": 0.0006110795522042575,
+    "conclusion": "inconclusive"
+  },
+  {
+    "scenario": "moderate_uncertainty",
+    "baseline": "quintic_skeleton",
+    "metric": "maximum_tilt_degrees",
+    "paired_runs": 72,
+    "baseline_minus_proposed_mean": -6.526669354501773,
+    "ci95_lower": -8.052725199725826,
+    "ci95_upper": -5.071652734504403,
+    "conclusion": "proposed_worse"
+  },
+  {
+    "scenario": "moderate_uncertainty",
+    "baseline": "boundary_cfm_steps8",
+    "metric": "tracking_rmse_m",
+    "paired_runs": 72,
+    "baseline_minus_proposed_mean": 0.20303307733834877,
+    "ci95_lower": 0.16510868397837256,
+    "ci95_upper": 0.24861736048894204,
+    "conclusion": "proposed_better"
+  },
+  {
+    "scenario": "moderate_uncertainty",
+    "baseline": "boundary_cfm_steps8",
+    "metric": "maximum_tracking_error_m",
+    "paired_runs": 72,
+    "baseline_minus_proposed_mean": 0.5161768270218086,
+    "ci95_lower": 0.4080207213892512,
+    "ci95_upper": 0.6498528333510901,
+    "conclusion": "proposed_better"
+  },
+  {
+    "scenario": "moderate_uncertainty",
+    "baseline": "boundary_cfm_steps8",
+    "metric": "crossing_time_error_s",
+    "paired_runs": 61,
+    "baseline_minus_proposed_mean": 0.14784965950274973,
+    "ci95_lower": 0.08763373629041242,
+    "ci95_upper": 0.23451726409846269,
+    "conclusion": "proposed_better"
+  },
+  {
+    "scenario": "moderate_uncertainty",
+    "baseline": "boundary_cfm_steps8",
+    "metric": "maximum_tilt_degrees",
+    "paired_runs": 72,
+    "baseline_minus_proposed_mean": 41.72466426863544,
+    "ci95_lower": 38.48659942403492,
+    "ci95_upper": 44.99413347388128,
+    "conclusion": "proposed_better"
+  },
+  {
+    "scenario": "moderate_uncertainty",
+    "baseline": "projected_velocity_steps8",
+    "metric": "tracking_rmse_m",
+    "paired_runs": 72,
+    "baseline_minus_proposed_mean": -0.0028981916906820945,
+    "ci95_lower": -0.0035790586016590663,
+    "ci95_upper": -0.0022094568202397752,
+    "conclusion": "proposed_worse"
+  },
+  {
+    "scenario": "moderate_uncertainty",
+    "baseline": "projected_velocity_steps8",
+    "metric": "maximum_tracking_error_m",
+    "paired_runs": 72,
+    "baseline_minus_proposed_mean": -0.01063173773641293,
+    "ci95_lower": -0.012703700718861035,
+    "ci95_upper": -0.008449893706835524,
+    "conclusion": "proposed_worse"
+  },
+  {
+    "scenario": "moderate_uncertainty",
+    "baseline": "projected_velocity_steps8",
+    "metric": "crossing_time_error_s",
+    "paired_runs": 72,
+    "baseline_minus_proposed_mean": 0.011694047956756012,
+    "ci95_lower": 0.0052314930348809656,
+    "ci95_upper": 0.018637557290907086,
+    "conclusion": "proposed_better"
+  },
+  {
+    "scenario": "moderate_uncertainty",
+    "baseline": "projected_velocity_steps8",
+    "metric": "maximum_tilt_degrees",
+    "paired_runs": 72,
+    "baseline_minus_proposed_mean": 4.550070853355539,
+    "ci95_lower": 1.453841192065184,
+    "ci95_upper": 7.743667143086884,
+    "conclusion": "proposed_better"
+  },
+  {
+    "scenario": "nominal",
+    "baseline": "quintic_skeleton",
+    "metric": "tracking_rmse_m",
+    "paired_runs": 72,
+    "baseline_minus_proposed_mean": -0.0013899098436062133,
+    "ci95_lower": -0.0021185265073052685,
+    "ci95_upper": -0.000767033517842961,
+    "conclusion": "proposed_worse"
+  },
+  {
+    "scenario": "nominal",
+    "baseline": "quintic_skeleton",
+    "metric": "maximum_tracking_error_m",
+    "paired_runs": 72,
+    "baseline_minus_proposed_mean": -0.010111193115696897,
+    "ci95_lower": -0.013056034161743913,
+    "ci95_upper": -0.007477413056724249,
+    "conclusion": "proposed_worse"
+  },
+  {
+    "scenario": "nominal",
+    "baseline": "quintic_skeleton",
+    "metric": "crossing_time_error_s",
+    "paired_runs": 72,
+    "baseline_minus_proposed_mean": -0.0008432379456682904,
+    "ci95_lower": -0.002614413827119965,
+    "ci95_upper": 0.0007958074508986601,
+    "conclusion": "inconclusive"
+  },
+  {
+    "scenario": "nominal",
+    "baseline": "quintic_skeleton",
+    "metric": "maximum_tilt_degrees",
+    "paired_runs": 72,
+    "baseline_minus_proposed_mean": -6.7916108337323,
+    "ci95_lower": -8.441196199400354,
+    "ci95_upper": -5.211632354085797,
+    "conclusion": "proposed_worse"
+  },
+  {
+    "scenario": "nominal",
+    "baseline": "boundary_cfm_steps8",
+    "metric": "tracking_rmse_m",
+    "paired_runs": 72,
+    "baseline_minus_proposed_mean": 0.22849764915173484,
+    "ci95_lower": 0.1907886533160602,
+    "ci95_upper": 0.27515440145824255,
+    "conclusion": "proposed_better"
+  },
+  {
+    "scenario": "nominal",
+    "baseline": "boundary_cfm_steps8",
+    "metric": "maximum_tracking_error_m",
+    "paired_runs": 72,
+    "baseline_minus_proposed_mean": 0.5379867950811614,
+    "ci95_lower": 0.4259759221072717,
+    "ci95_upper": 0.6851503016214894,
+    "conclusion": "proposed_better"
+  },
+  {
+    "scenario": "nominal",
+    "baseline": "boundary_cfm_steps8",
+    "metric": "crossing_time_error_s",
+    "paired_runs": 66,
+    "baseline_minus_proposed_mean": 0.1546966630244186,
+    "ci95_lower": 0.08514697717314335,
+    "ci95_upper": 0.26622595735708643,
+    "conclusion": "proposed_better"
+  },
+  {
+    "scenario": "nominal",
+    "baseline": "boundary_cfm_steps8",
+    "metric": "maximum_tilt_degrees",
+    "paired_runs": 72,
+    "baseline_minus_proposed_mean": 43.07213401785877,
+    "ci95_lower": 39.68063025861495,
+    "ci95_upper": 46.3453610123095,
+    "conclusion": "proposed_better"
+  },
+  {
+    "scenario": "nominal",
+    "baseline": "projected_velocity_steps8",
+    "metric": "tracking_rmse_m",
+    "paired_runs": 72,
+    "baseline_minus_proposed_mean": -0.0072178163725795325,
+    "ci95_lower": -0.007973776764468012,
+    "ci95_upper": -0.006472786866393465,
+    "conclusion": "proposed_worse"
+  },
+  {
+    "scenario": "nominal",
+    "baseline": "projected_velocity_steps8",
+    "metric": "maximum_tracking_error_m",
+    "paired_runs": 72,
+    "baseline_minus_proposed_mean": -0.020913680918791724,
+    "ci95_lower": -0.024204165725659504,
+    "ci95_upper": -0.017603054722842418,
+    "conclusion": "proposed_worse"
+  },
+  {
+    "scenario": "nominal",
+    "baseline": "projected_velocity_steps8",
+    "metric": "crossing_time_error_s",
+    "paired_runs": 72,
+    "baseline_minus_proposed_mean": 0.006320734846613256,
+    "ci95_lower": 0.00143555159104527,
+    "ci95_upper": 0.011630530525701158,
+    "conclusion": "proposed_better"
+  },
+  {
+    "scenario": "nominal",
+    "baseline": "projected_velocity_steps8",
+    "metric": "maximum_tilt_degrees",
+    "paired_runs": 72,
+    "baseline_minus_proposed_mean": 4.925979475452964,
+    "ci95_lower": 1.6087165655443592,
+    "ci95_upper": 8.443848942921557,
+    "conclusion": "proposed_better"
+  },
+  {
+    "scenario": "severe_uncertainty",
+    "baseline": "quintic_skeleton",
+    "metric": "tracking_rmse_m",
+    "paired_runs": 72,
+    "baseline_minus_proposed_mean": -0.0013551295065802058,
+    "ci95_lower": -0.0024680617625056707,
+    "ci95_upper": -0.00020652830541103252,
+    "conclusion": "proposed_worse"
+  },
+  {
+    "scenario": "severe_uncertainty",
+    "baseline": "quintic_skeleton",
+    "metric": "maximum_tracking_error_m",
+    "paired_runs": 72,
+    "baseline_minus_proposed_mean": -0.0066800757958247504,
+    "ci95_lower": -0.009140061360117498,
+    "ci95_upper": -0.004367256170983759,
+    "conclusion": "proposed_worse"
+  },
+  {
+    "scenario": "severe_uncertainty",
+    "baseline": "quintic_skeleton",
+    "metric": "crossing_time_error_s",
+    "paired_runs": 72,
+    "baseline_minus_proposed_mean": -0.0009434435890931175,
+    "ci95_lower": -0.0036366652057226927,
+    "ci95_upper": 0.0015726205759393854,
+    "conclusion": "inconclusive"
+  },
+  {
+    "scenario": "severe_uncertainty",
+    "baseline": "quintic_skeleton",
+    "metric": "maximum_tilt_degrees",
+    "paired_runs": 72,
+    "baseline_minus_proposed_mean": -5.401442487685862,
+    "ci95_lower": -6.775508108773339,
+    "ci95_upper": -4.0833801060998995,
+    "conclusion": "proposed_worse"
+  },
+  {
+    "scenario": "severe_uncertainty",
+    "baseline": "boundary_cfm_steps8",
+    "metric": "tracking_rmse_m",
+    "paired_runs": 72,
+    "baseline_minus_proposed_mean": 0.1837983890224289,
+    "ci95_lower": 0.14694587984016036,
+    "ci95_upper": 0.22308867020423787,
+    "conclusion": "proposed_better"
+  },
+  {
+    "scenario": "severe_uncertainty",
+    "baseline": "boundary_cfm_steps8",
+    "metric": "maximum_tracking_error_m",
+    "paired_runs": 72,
+    "baseline_minus_proposed_mean": 0.4918062614574359,
+    "ci95_lower": 0.3895009946996245,
+    "ci95_upper": 0.6160063352945875,
+    "conclusion": "proposed_better"
+  },
+  {
+    "scenario": "severe_uncertainty",
+    "baseline": "boundary_cfm_steps8",
+    "metric": "crossing_time_error_s",
+    "paired_runs": 58,
+    "baseline_minus_proposed_mean": 0.14071917880706533,
+    "ci95_lower": 0.07780741989323611,
+    "ci95_upper": 0.23015093591083824,
+    "conclusion": "proposed_better"
+  },
+  {
+    "scenario": "severe_uncertainty",
+    "baseline": "boundary_cfm_steps8",
+    "metric": "maximum_tilt_degrees",
+    "paired_runs": 72,
+    "baseline_minus_proposed_mean": 38.18528243515131,
+    "ci95_lower": 35.108328973508776,
+    "ci95_upper": 41.35026839306149,
+    "conclusion": "proposed_better"
+  },
+  {
+    "scenario": "severe_uncertainty",
+    "baseline": "projected_velocity_steps8",
+    "metric": "tracking_rmse_m",
+    "paired_runs": 72,
+    "baseline_minus_proposed_mean": 0.0005433798059041148,
+    "ci95_lower": -0.001538357666121191,
+    "ci95_upper": 0.0026589429885875327,
+    "conclusion": "inconclusive"
+  },
+  {
+    "scenario": "severe_uncertainty",
+    "baseline": "projected_velocity_steps8",
+    "metric": "maximum_tracking_error_m",
+    "paired_runs": 72,
+    "baseline_minus_proposed_mean": -0.004043090375596329,
+    "ci95_lower": -0.008832639224424564,
+    "ci95_upper": 0.0012153454958325597,
+    "conclusion": "inconclusive"
+  },
+  {
+    "scenario": "severe_uncertainty",
+    "baseline": "projected_velocity_steps8",
+    "metric": "crossing_time_error_s",
+    "paired_runs": 72,
+    "baseline_minus_proposed_mean": 0.03395288090894583,
+    "ci95_lower": 0.02344932825512165,
+    "ci95_upper": 0.04518945597221754,
+    "conclusion": "proposed_better"
+  },
+  {
+    "scenario": "severe_uncertainty",
+    "baseline": "projected_velocity_steps8",
+    "metric": "maximum_tilt_degrees",
+    "paired_runs": 72,
+    "baseline_minus_proposed_mean": 4.783316582134214,
+    "ci95_lower": 1.8887011474109217,
+    "ci95_upper": 7.800735761965231,
+    "conclusion": "proposed_better"
+  }
+]

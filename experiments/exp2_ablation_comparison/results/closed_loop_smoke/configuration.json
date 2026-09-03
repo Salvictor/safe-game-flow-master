@@ -1,0 +1,23 @@
+{
+  "scenario": {
+    "wind_acceleration": 1.2,
+    "position_noise_std": 0.015,
+    "velocity_noise_std": 0.05,
+    "mass_scale_range": [
+      0.9,
+      1.1
+    ],
+    "motor_tau_scale_range": [
+      0.7,
+      1.4
+    ],
+    "command_delay": 0.02
+  },
+  "num_trajectories": 2,
+  "seeds": [
+    901
+  ],
+  "integration_dt": 0.004,
+  "control_dt": 0.004,
+  "paired_uncertainty": true
+}

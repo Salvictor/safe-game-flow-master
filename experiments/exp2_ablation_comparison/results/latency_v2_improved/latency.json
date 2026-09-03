@@ -1,0 +1,79 @@
+[
+  {
+    "method": "quintic_skeleton",
+    "queries": 128,
+    "median_ms": 0.2132,
+    "p95_ms": 0.34561000000000003,
+    "p99_ms": 0.3822850000000001,
+    "mean_ms": 0.228259375,
+    "success_rate": 1.0,
+    "collision_free_rate": 1.0,
+    "dynamic_feasibility_rate": 1.0
+  },
+  {
+    "method": "projected_velocity_cfm",
+    "queries": 128,
+    "median_ms": 21.6765,
+    "p95_ms": 27.051295,
+    "p99_ms": 27.989941,
+    "mean_ms": 22.184762499999998,
+    "success_rate": 0.6796875,
+    "collision_free_rate": 1.0,
+    "dynamic_feasibility_rate": 0.6796875
+  },
+  {
+    "method": "boundary_only",
+    "queries": 128,
+    "median_ms": 20.467950000000002,
+    "p95_ms": 25.197124999999996,
+    "p99_ms": 28.705325000000006,
+    "mean_ms": 21.45173203125,
+    "success_rate": 0.0,
+    "collision_free_rate": 1.0,
+    "dynamic_feasibility_rate": 0.0
+  },
+  {
+    "method": "plus_safe_prior",
+    "queries": 128,
+    "median_ms": 24.95415,
+    "p95_ms": 32.445179999999986,
+    "p99_ms": 37.01722,
+    "mean_ms": 25.63898203125,
+    "success_rate": 0.015625,
+    "collision_free_rate": 1.0,
+    "dynamic_feasibility_rate": 0.015625
+  },
+  {
+    "method": "plus_cbf",
+    "queries": 128,
+    "median_ms": 48.906800000000004,
+    "p95_ms": 62.89986499999997,
+    "p99_ms": 70.20243600000002,
+    "mean_ms": 50.315503125,
+    "success_rate": 0.015625,
+    "collision_free_rate": 1.0,
+    "dynamic_feasibility_rate": 0.015625
+  },
+  {
+    "method": "plus_kinodynamic",
+    "queries": 128,
+    "median_ms": 54.7916,
+    "p95_ms": 72.5025,
+    "p99_ms": 84.57422000000003,
+    "mean_ms": 57.144342968749996,
+    "success_rate": 1.0,
+    "collision_free_rate": 1.0,
+    "dynamic_feasibility_rate": 1.0
+  },
+  {
+    "method": "plus_execution_margin",
+    "queries": 128,
+    "median_ms": 51.76885,
+    "p95_ms": 68.93585499999999,
+    "p99_ms": 84.25414200000004,
+    "mean_ms": 54.1823515625,
+    "success_rate": 1.0,
+    "collision_free_rate": 1.0,
+    "dynamic_feasibility_rate": 1.0
+  }
+]

@@ -1,0 +1,12 @@
+{
+  "checkpoint": "C:\\Users\\Administrator\\Desktop\\safe-game-flow-master\\safe-game-flow-master\\experiments\\exp3_multi_uav_game\\results\\phase2_v1_barrier_guided\\model\\checkpoint.pt",
+  "data_dir": "C:\\Users\\Administrator\\Desktop\\safe-game-flow-master\\safe-game-flow-master\\experiments\\exp3_multi_uav_game\\results\\phase1_v1\\data_test",
+  "samples": 256,
+  "ode_steps": 8,
+  "candidates_per_condition": 4,
+  "execution_hocbf_distance_m": 0.65,
+  "score_acceleration_weight": 0.05,
+  "score_jerk_weight": 0.01,
+  "sampling_seconds": 8.494771299883723,
+  "seed": 53007
+}

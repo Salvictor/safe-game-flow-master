@@ -1,0 +1,28 @@
+{
+  "num_conditions": 128,
+  "samples_per_condition": 1,
+  "num_trajectories": 128,
+  "ode_steps": 2,
+  "seed": 402,
+  "trajectory_representation": "velocity",
+  "ode_sampling_seconds": 0.10009220009669662,
+  "ode_milliseconds_per_trajectory": 0.7819703132554423,
+  "end_to_end_planning_seconds": 0.10448869992978871,
+  "end_to_end_milliseconds_per_trajectory": 0.8163179682014743,
+  "cbf_enabled": false,
+  "cbf_alpha": null,
+  "cbf_projection": null,
+  "cbf_collocation_factor": null,
+  "cbf_projection_iterations": null,
+  "safe_passage_prior": false,
+  "prior_sampling": {
+    "rejected_candidates": 0,
+    "fallback_skeletons": 0
+  },
+  "kinodynamic_projection": false,
+  "kinodynamic_projection_seconds": 0.0,
+  "mean_residual_scale": 1.0,
+  "minimum_residual_scale": 1.0,
+  "fraction_scaled": 0.0,
+  "velocity_boundary_projection": false
+}

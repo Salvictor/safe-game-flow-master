@@ -1,0 +1,7 @@
+ci95_lower,ci95_upper,hocbf_only_rate,label,metric,paired_runs,proposed_minus_hocbf_mean,proposed_rate
+0.04064779202224459,0.04502749209187375,,Minimum separation (m),minimum_separation_m,384,0.042833583152798255,
+-0.2439730994944144,-0.22413641643885107,,HOCBF intervention rate,hocbf_intervention_rate,384,-0.23430550541996564,
+0.26931045516424584,0.3000789450780048,,Completion time (s),completion_time_s,384,0.2849744702702051,
+-0.16988014215123046,-0.15546222679536773,,Social payoff,social_payoff,384,-0.16281161125161261,
+0.0005977551908860677,0.009392350042407117,,Maximum acceleration (m/s^2),maximum_acceleration_mps2,384,0.005082281566775464,
+-0.3151041666666667,-0.2265625,0.2708333333333333,Rate below 0.36 m HOCBF margin,hocbf_margin_violation_rate,384,-0.2708333333333333,0.0

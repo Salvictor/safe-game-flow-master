@@ -1,0 +1,82 @@
+{
+  "coordinate_frame": "world",
+  "units": {
+    "position": "m",
+    "velocity": "m/s",
+    "acceleration": "m/s^2"
+  },
+  "trajectory_layout": "(N, 3, H)",
+  "learned_representation": "boundary_residuals.npy stores residuals around a quintic PVA-feasible skeleton; layout (N, 3, H)",
+  "condition_schema": [
+    "start_position_x",
+    "start_position_y",
+    "start_position_z",
+    "start_velocity_x",
+    "start_velocity_y",
+    "start_velocity_z",
+    "goal_position_x",
+    "goal_position_y",
+    "goal_position_z",
+    "goal_velocity_x",
+    "goal_velocity_y",
+    "goal_velocity_z",
+    "ring_center_x",
+    "ring_center_y",
+    "ring_center_z",
+    "ring_normal_x",
+    "ring_normal_y",
+    "ring_normal_z",
+    "ring_major_radius",
+    "ring_tube_radius",
+    "uav_radius",
+    "margin",
+    "flight_time"
+  ],
+  "generator": "two C2-connected quintic polynomial segments",
+  "dataset_config": {
+    "horizon": 100,
+    "dense_check_points": 500,
+    "max_attempts_per_sample": 100,
+    "ring_center_low": [
+      -0.5,
+      -0.5,
+      1.0
+    ],
+    "ring_center_high": [
+      0.5,
+      0.5,
+      2.0
+    ],
+    "maximum_normal_tilt_deg": 25.0,
+    "major_radius_range": [
+      0.55,
+      0.85
+    ],
+    "tube_radius_range": [
+      0.035,
+      0.065
+    ],
+    "uav_radius": 0.09,
+    "safety_margin": 0.04,
+    "approach_distance_range": [
+      1.4,
+      2.2
+    ],
+    "exit_distance_range": [
+      1.4,
+      2.2
+    ],
+    "crossing_speed_range": [
+      0.35,
+      0.75
+    ],
+    "flight_time_range": [
+      4.0,
+      6.0
+    ],
+    "maximum_speed": 2.0,
+    "maximum_acceleration": 3.0,
+    "crossing_offset_fraction": 0.35,
+    "endpoint_offset_fraction": 1.4
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "trajectories": 2,
+  "seeds": [
+    8101
+  ],
+  "integration_dt": 0.002,
+  "control_dt": 0.002,
+  "scenarios": {
+    "nominal": {
+      "wind": 0.0,
+      "position_noise": 0.0,
+      "velocity_noise": 0.0,
+      "mass_range": [
+        1.0,
+        1.0
+      ],
+      "tau_range": [
+        1.0,
+        1.0
+      ],
+      "delay": 0.0
+    },
+    "moderate": {
+      "wind": 0.6,
+      "position_noise": 0.005,
+      "velocity_noise": 0.02,
+      "mass_range": [
+        0.95,
+        1.05
+      ],
+      "tau_range": [
+        0.8,
+        1.2
+      ],
+      "delay": 0.01
+    },
+    "severe": {
+      "wind": 1.2,
+      "position_noise": 0.015,
+      "velocity_noise": 0.05,
+      "mass_range": [
+        0.9,
+        1.1
+      ],
+      "tau_range": [
+        0.7,
+        1.4
+      ],
+      "delay": 0.02
+    }
+  },
+  "quadrotor_parameters": {
+    "mass": 0.034,
+    "inertia_xx": 1.6e-05,
+    "inertia_yy": 1.6e-05,
+    "inertia_zz": 2.9e-05,
+    "arm_radius": 0.05,
+    "maximum_motor_thrust": 0.29419949999999995,
+    "motor_time_constant": 0.025,
+    "yaw_moment_ratio": 0.006,
+    "linear_drag": 0.015,
+    "gravity": 9.80665
+  },
+  "coupling_note": "HOCBF is applied to the reference before 6-DoF tracking; the two rigid-body plants are not coupled by a new online HOCBF."
+}

@@ -1,0 +1,73 @@
+{
+  "physical_parameters": {
+    "mass": 0.034,
+    "inertia_xx": 1.6e-05,
+    "inertia_yy": 1.6e-05,
+    "inertia_zz": 2.9e-05,
+    "arm_radius": 0.05,
+    "maximum_motor_thrust": 0.29419949999999995,
+    "motor_time_constant": 0.025,
+    "yaw_moment_ratio": 0.006,
+    "linear_drag": 0.015,
+    "gravity": 9.80665
+  },
+  "official_specification_fields": [
+    "mass",
+    "arm_radius",
+    "maximum_motor_thrust"
+  ],
+  "assumed_pending_identification": [
+    "inertia_xx",
+    "inertia_yy",
+    "inertia_zz",
+    "motor_time_constant",
+    "yaw_moment_ratio",
+    "linear_drag"
+  ],
+  "integration_dt": 0.004,
+  "control_dt": 0.004,
+  "scenarios": {
+    "nominal": {
+      "wind_acceleration": 0.0,
+      "position_noise_std": 0.0,
+      "velocity_noise_std": 0.0,
+      "mass_scale_range": [
+        1.0,
+        1.0
+      ],
+      "motor_tau_scale_range": [
+        1.0,
+        1.0
+      ],
+      "command_delay": 0.0
+    },
+    "moderate_uncertainty": {
+      "wind_acceleration": 0.6,
+      "position_noise_std": 0.005,
+      "velocity_noise_std": 0.02,
+      "mass_scale_range": [
+        0.95,
+        1.05
+      ],
+      "motor_tau_scale_range": [
+        0.8,
+        1.2
+      ],
+      "command_delay": 0.01
+    },
+    "severe_uncertainty": {
+      "wind_acceleration": 1.2,
+      "position_noise_std": 0.015,
+      "velocity_noise_std": 0.05,
+      "mass_scale_range": [
+        0.9,
+        1.1
+      ],
+      "motor_tau_scale_range": [
+        0.7,
+        1.4
+      ],
+      "command_delay": 0.02
+    }
+  }
+}

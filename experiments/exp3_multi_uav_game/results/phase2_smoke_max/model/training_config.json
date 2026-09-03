@@ -1,0 +1,12 @@
+{
+  "data_dir": "C:\\Users\\Administrator\\Desktop\\safe-game-flow-master\\safe-game-flow-master\\experiments\\exp3_multi_uav_game\\results\\phase1_v1\\data_train",
+  "resume": "C:\\Users\\Administrator\\Desktop\\safe-game-flow-master\\safe-game-flow-master\\experiments\\exp3_multi_uav_game\\results\\phase1_v1\\model\\checkpoint.pt",
+  "save_dir": "C:\\Users\\Administrator\\Desktop\\safe-game-flow-master\\safe-game-flow-master\\experiments\\exp3_multi_uav_game\\results\\phase2_smoke_max\\model",
+  "epochs": 3,
+  "batch_size": 64,
+  "lr": 8e-05,
+  "safe_weight": 40.0,
+  "dynamic_weight": 0.02,
+  "safety_distance": 0.38,
+  "seed": 62003
+}

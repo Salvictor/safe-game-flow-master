@@ -1,0 +1,19 @@
+{
+  "scenarios": 128,
+  "seeds": [
+    1001,
+    1002,
+    1003
+  ],
+  "dt": 0.01,
+  "dynamics": "paired 3D double integrator",
+  "physical_collision_distance": 0.25,
+  "hocbf_distance": 0.36,
+  "game_actions": [
+    "go",
+    "yield"
+  ],
+  "game_safety_gap": 0.45,
+  "game_safety_buffer": 0.05,
+  "game_delay": "minimum scene-dependent safe delay"
+}

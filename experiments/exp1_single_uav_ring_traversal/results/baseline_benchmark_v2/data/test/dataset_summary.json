@@ -1,0 +1,19 @@
+{
+  "num_samples": 128,
+  "seed": 202,
+  "trajectory_shape": [
+    128,
+    3,
+    100
+  ],
+  "condition_dimension": 23,
+  "successful_ring_traversals": 128,
+  "ring_pass_rate": 1.0,
+  "minimum_barrier": 0.14876898058374594,
+  "mean_minimum_barrier": 0.2874070333666906,
+  "maximum_speed": 1.6588462839952265,
+  "maximum_acceleration": 2.4093326894001876,
+  "mean_path_length": 3.634467893993266,
+  "configured_speed_limit": 2.0,
+  "configured_acceleration_limit": 3.0
+}

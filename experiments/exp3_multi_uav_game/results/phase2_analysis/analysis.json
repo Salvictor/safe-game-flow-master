@@ -1,0 +1,214 @@
+{
+  "guidance": [
+    {
+      "method": "game_cfm_anchored",
+      "metric": "collision",
+      "samples": 256,
+      "phase2_minus_phase1_mean": 0.0,
+      "ci95_lower": 0.0,
+      "ci95_upper": 0.0
+    },
+    {
+      "method": "game_cfm_anchored",
+      "metric": "margin_violation",
+      "samples": 256,
+      "phase2_minus_phase1_mean": -0.12109375,
+      "ci95_lower": -0.16796875,
+      "ci95_upper": -0.078125
+    },
+    {
+      "method": "game_cfm_anchored",
+      "metric": "minimum_separation_m",
+      "samples": 256,
+      "phase2_minus_phase1_mean": 0.00804587947484001,
+      "ci95_lower": 0.006320340716108976,
+      "ci95_upper": 0.009840806419530059
+    },
+    {
+      "method": "game_cfm_anchored",
+      "metric": "hocbf_intervention_rate",
+      "samples": 256,
+      "phase2_minus_phase1_mean": 0.0,
+      "ci95_lower": 0.0,
+      "ci95_upper": 0.0
+    },
+    {
+      "method": "game_cfm_anchored",
+      "metric": "mean_hocbf_correction",
+      "samples": 256,
+      "phase2_minus_phase1_mean": 0.0,
+      "ci95_lower": 0.0,
+      "ci95_upper": 0.0
+    },
+    {
+      "method": "game_cfm_anchored",
+      "metric": "expert_rmse_m",
+      "samples": 256,
+      "phase2_minus_phase1_mean": -0.0002443072066833765,
+      "ci95_lower": -0.00045503683299388955,
+      "ci95_upper": -3.546450127971685e-05
+    },
+    {
+      "method": "game_cfm_anchored",
+      "metric": "maximum_acceleration_mps2",
+      "samples": 256,
+      "phase2_minus_phase1_mean": -0.009605703330378402,
+      "ci95_lower": -0.023712832533039668,
+      "ci95_upper": 0.0036265023871693983
+    },
+    {
+      "method": "game_cfm_hocbf",
+      "metric": "collision",
+      "samples": 256,
+      "phase2_minus_phase1_mean": 0.0,
+      "ci95_lower": 0.0,
+      "ci95_upper": 0.0
+    },
+    {
+      "method": "game_cfm_hocbf",
+      "metric": "margin_violation",
+      "samples": 256,
+      "phase2_minus_phase1_mean": -0.00390625,
+      "ci95_lower": -0.01171875,
+      "ci95_upper": 0.0
+    },
+    {
+      "method": "game_cfm_hocbf",
+      "metric": "minimum_separation_m",
+      "samples": 256,
+      "phase2_minus_phase1_mean": 0.0031073792090436448,
+      "ci95_lower": 0.002278763295768968,
+      "ci95_upper": 0.003928586417494066
+    },
+    {
+      "method": "game_cfm_hocbf",
+      "metric": "hocbf_intervention_rate",
+      "samples": 256,
+      "phase2_minus_phase1_mean": -0.003636853448275862,
+      "ci95_lower": -0.005068908802177858,
+      "ci95_upper": -0.00224024500907441
+    },
+    {
+      "method": "game_cfm_hocbf",
+      "metric": "mean_hocbf_correction",
+      "samples": 256,
+      "phase2_minus_phase1_mean": -0.02205043673797845,
+      "ci95_lower": -0.03318667574333831,
+      "ci95_upper": -0.011223115443684614
+    },
+    {
+      "method": "game_cfm_hocbf",
+      "metric": "expert_rmse_m",
+      "samples": 256,
+      "phase2_minus_phase1_mean": 0.00026441438688854456,
+      "ci95_lower": 5.315913513657163e-05,
+      "ci95_upper": 0.000459966320939778
+    },
+    {
+      "method": "game_cfm_hocbf",
+      "metric": "maximum_acceleration_mps2",
+      "samples": 256,
+      "phase2_minus_phase1_mean": -0.0008980054137363892,
+      "ci95_lower": -0.007646806610182262,
+      "ci95_upper": 0.005460529353443896
+    }
+  ],
+  "six_dof": [
+    {
+      "baseline": "nash_reference_hocbf",
+      "metric": "collision",
+      "trajectory_clusters": 8,
+      "phase2_minus_baseline_mean": 0.0,
+      "ci95_lower": 0.0,
+      "ci95_upper": 0.0
+    },
+    {
+      "baseline": "nash_reference_hocbf",
+      "metric": "margin_violation",
+      "trajectory_clusters": 8,
+      "phase2_minus_baseline_mean": 0.0,
+      "ci95_lower": 0.0,
+      "ci95_upper": 0.0
+    },
+    {
+      "baseline": "nash_reference_hocbf",
+      "metric": "minimum_separation_m",
+      "trajectory_clusters": 8,
+      "phase2_minus_baseline_mean": -0.0024153750895768546,
+      "ci95_lower": -0.0036088251232364726,
+      "ci95_upper": -0.0012200476371869787
+    },
+    {
+      "baseline": "nash_reference_hocbf",
+      "metric": "tracking_rmse_mean_m",
+      "trajectory_clusters": 8,
+      "phase2_minus_baseline_mean": 0.0008525471638430379,
+      "ci95_lower": 9.702247999551945e-05,
+      "ci95_upper": 0.0017143182224682043
+    },
+    {
+      "baseline": "nash_reference_hocbf",
+      "metric": "maximum_tracking_error_m",
+      "trajectory_clusters": 8,
+      "phase2_minus_baseline_mean": 0.002337321369009761,
+      "ci95_lower": 0.0008977170948138562,
+      "ci95_upper": 0.004250213542363001
+    },
+    {
+      "baseline": "nash_reference_hocbf",
+      "metric": "maximum_tilt_degrees",
+      "trajectory_clusters": 8,
+      "phase2_minus_baseline_mean": 2.1911988533295816,
+      "ci95_lower": 1.0086756059189592,
+      "ci95_upper": 3.5265450392801796
+    },
+    {
+      "baseline": "phase1_cfm_hocbf",
+      "metric": "collision",
+      "trajectory_clusters": 8,
+      "phase2_minus_baseline_mean": 0.0,
+      "ci95_lower": 0.0,
+      "ci95_upper": 0.0
+    },
+    {
+      "baseline": "phase1_cfm_hocbf",
+      "metric": "margin_violation",
+      "trajectory_clusters": 8,
+      "phase2_minus_baseline_mean": 0.0,
+      "ci95_lower": 0.0,
+      "ci95_upper": 0.0
+    },
+    {
+      "baseline": "phase1_cfm_hocbf",
+      "metric": "minimum_separation_m",
+      "trajectory_clusters": 8,
+      "phase2_minus_baseline_mean": -0.0005959319614531541,
+      "ci95_lower": -0.002618772921961278,
+      "ci95_upper": 0.0010820990369227368
+    },
+    {
+      "baseline": "phase1_cfm_hocbf",
+      "metric": "tracking_rmse_mean_m",
+      "trajectory_clusters": 8,
+      "phase2_minus_baseline_mean": -4.998303863850904e-05,
+      "ci95_lower": -0.0002384993571034934,
+      "ci95_upper": 0.00018687074142606635
+    },
+    {
+      "baseline": "phase1_cfm_hocbf",
+      "metric": "maximum_tracking_error_m",
+      "trajectory_clusters": 8,
+      "phase2_minus_baseline_mean": -0.0004760039995718527,
+      "ci95_lower": -0.001578063980300748,
+      "ci95_upper": 0.0004197318646675982
+    },
+    {
+      "baseline": "phase1_cfm_hocbf",
+      "metric": "maximum_tilt_degrees",
+      "trajectory_clusters": 8,
+      "phase2_minus_baseline_mean": 0.0389350788973592,
+      "ci95_lower": -0.6122963563170799,
+      "ci95_upper": 0.6209063140154432
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+[
+  {
+    "method": "independent",
+    "runs": 384,
+    "both_pass_rate": 1.0,
+    "collision_rate": 0.9088541666666666,
+    "deadlock_rate": 0.0,
+    "mean_minimum_separation_m": 0.11607107355799151,
+    "minimum_separation_m": 0.008825763763821343,
+    "mean_crossing_gap_s": 0.1914996979371001,
+    "mean_completion_time_s": 2.098320519854683,
+    "mean_social_payoff": -34.98878926073684,
+    "hocbf_intervention_rate": 0.0,
+    "mean_maximum_acceleration_mps2": 2.0894767438498127
+  },
+  {
+    "method": "fixed_priority",
+    "runs": 384,
+    "both_pass_rate": 1.0,
+    "collision_rate": 0.059895833333333336,
+    "deadlock_rate": 0.0,
+    "mean_minimum_separation_m": 0.46353729238745744,
+    "minimum_separation_m": 0.08316070025365314,
+    "mean_crossing_gap_s": 0.7978715247216335,
+    "mean_completion_time_s": 2.8014789488291107,
+    "mean_social_payoff": 11.329635984456097,
+    "hocbf_intervention_rate": 0.0,
+    "mean_maximum_acceleration_mps2": 2.0915246614228464
+  },
+  {
+    "method": "hocbf_only",
+    "runs": 384,
+    "both_pass_rate": 1.0,
+    "collision_rate": 0.0,
+    "deadlock_rate": 0.0,
+    "mean_minimum_separation_m": 0.3666995727757552,
+    "minimum_separation_m": 0.33979275727516717,
+    "mean_crossing_gap_s": 0.3967700179518836,
+    "mean_completion_time_s": 2.205325658288198,
+    "mean_social_payoff": 14.993059350687744,
+    "hocbf_intervention_rate": 0.3673173395622967,
+    "mean_maximum_acceleration_mps2": 2.0799619212220097
+  },
+  {
+    "method": "nash_game",
+    "runs": 384,
+    "both_pass_rate": 1.0,
+    "collision_rate": 0.0078125,
+    "deadlock_rate": 0.0,
+    "mean_minimum_separation_m": 0.3039820718345586,
+    "minimum_separation_m": 0.2423896238259441,
+    "mean_crossing_gap_s": 0.5030257339958727,
+    "mean_completion_time_s": 2.4114395480131043,
+    "mean_social_payoff": 14.412603935870715,
+    "hocbf_intervention_rate": 0.0,
+    "mean_maximum_acceleration_mps2": 2.091322630504243
+  },
+  {
+    "method": "nash_game_hocbf",
+    "runs": 384,
+    "both_pass_rate": 1.0,
+    "collision_rate": 0.0,
+    "deadlock_rate": 0.0,
+    "mean_minimum_separation_m": 0.4095331559285535,
+    "minimum_separation_m": 0.36366640174078746,
+    "mean_crossing_gap_s": 0.6410957359890688,
+    "mean_completion_time_s": 2.490300128558403,
+    "mean_social_payoff": 14.830247739436132,
+    "hocbf_intervention_rate": 0.13301183414233111,
+    "mean_maximum_acceleration_mps2": 2.085044202788785
+  }
+]

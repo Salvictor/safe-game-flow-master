@@ -1,0 +1,46 @@
+[
+  {
+    "method": "boundary_trajectory",
+    "ode_steps": 1,
+    "queries": 2,
+    "median_ms": 4.231199999999999,
+    "p95_ms": 4.41318,
+    "p99_ms": 4.429355999999999,
+    "mean_ms": 4.231199999999999,
+    "std_ms": 0.2859539823118397,
+    "success_rate": 0.0
+  },
+  {
+    "method": "projected_velocity",
+    "ode_steps": 1,
+    "queries": 2,
+    "median_ms": 3.65505,
+    "p95_ms": 3.843375,
+    "p99_ms": 3.860115,
+    "mean_ms": 3.65505,
+    "std_ms": 0.29592418792657005,
+    "success_rate": 0.0
+  },
+  {
+    "method": "proposed_safe",
+    "ode_steps": 1,
+    "queries": 2,
+    "median_ms": 217.209,
+    "p95_ms": 217.99803,
+    "p99_ms": 218.068166,
+    "mean_ms": 217.209,
+    "std_ms": 1.2398410301324918,
+    "success_rate": 1.0
+  },
+  {
+    "method": "quintic_skeleton",
+    "ode_steps": 0,
+    "queries": 2,
+    "median_ms": 0.22885,
+    "p95_ms": 0.244195,
+    "p99_ms": 0.245559,
+    "mean_ms": 0.22885,
+    "std_ms": 0.024112341238461284,
+    "success_rate": 1.0
+  }
+]

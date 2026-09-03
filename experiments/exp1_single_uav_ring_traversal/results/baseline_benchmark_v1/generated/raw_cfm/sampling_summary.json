@@ -1,0 +1,25 @@
+{
+  "num_conditions": 128,
+  "samples_per_condition": 1,
+  "num_trajectories": 128,
+  "ode_steps": 20,
+  "seed": 304,
+  "trajectory_representation": "position",
+  "ode_sampling_seconds": 0.857631599996239,
+  "ode_milliseconds_per_trajectory": 6.700246874970617,
+  "cbf_enabled": false,
+  "cbf_alpha": null,
+  "cbf_projection": null,
+  "cbf_collocation_factor": null,
+  "cbf_projection_iterations": null,
+  "safe_passage_prior": false,
+  "prior_sampling": {
+    "rejected_candidates": 0,
+    "fallback_skeletons": 0
+  },
+  "kinodynamic_projection": false,
+  "kinodynamic_projection_seconds": 0.0,
+  "mean_residual_scale": 1.0,
+  "minimum_residual_scale": 1.0,
+  "fraction_scaled": 0.0
+}

@@ -1,0 +1,18 @@
+{
+  "num_trajectories": 128,
+  "success_rate": 0.0,
+  "ring_pass_rate": 1.0,
+  "collision_free_rate": 1.0,
+  "dynamic_feasibility_rate": 0.0,
+  "endpoint_feasibility_rate": 0.0,
+  "minimum_barrier": 0.05903889265806653,
+  "mean_minimum_barrier": 0.24872964018833055,
+  "mean_crossing_clearance": 0.3899598575821029,
+  "mean_maximum_speed": 8.326758830000788,
+  "maximum_speed": 28.252816837770858,
+  "mean_maximum_acceleration": 165.8286743271699,
+  "maximum_acceleration": 661.1198479887536,
+  "mean_path_length": 12.506668523687663,
+  "mean_start_position_error": 0.45644229098577865,
+  "mean_goal_position_error": 0.5134586610243905
+}

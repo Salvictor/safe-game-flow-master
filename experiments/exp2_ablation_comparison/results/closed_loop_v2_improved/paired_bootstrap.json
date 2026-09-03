@@ -1,0 +1,218 @@
+[
+  {
+    "baseline": "quintic_skeleton",
+    "metric": "tracking_rmse_m",
+    "paired_runs": 72,
+    "baseline_minus_full_mean": -0.0016354973858202012,
+    "ci95_lower": -0.003392553989211327,
+    "ci95_upper": -0.0005176699457140368,
+    "conclusion": "full_worse"
+  },
+  {
+    "baseline": "quintic_skeleton",
+    "metric": "maximum_tracking_error_m",
+    "paired_runs": 72,
+    "baseline_minus_full_mean": -0.006356300364971481,
+    "ci95_lower": -0.01032004685941391,
+    "ci95_upper": -0.0037226458136554903,
+    "conclusion": "full_worse"
+  },
+  {
+    "baseline": "quintic_skeleton",
+    "metric": "crossing_time_error_s",
+    "paired_runs": 72,
+    "baseline_minus_full_mean": -0.0007384148132839052,
+    "ci95_lower": -0.003969294877840137,
+    "ci95_upper": 0.0020094554022054025,
+    "conclusion": "inconclusive"
+  },
+  {
+    "baseline": "quintic_skeleton",
+    "metric": "maximum_tilt_degrees",
+    "paired_runs": 72,
+    "baseline_minus_full_mean": -4.908808518272364,
+    "ci95_lower": -6.26151075917184,
+    "ci95_upper": -3.621105042414565,
+    "conclusion": "full_worse"
+  },
+  {
+    "baseline": "projected_velocity_cfm",
+    "metric": "tracking_rmse_m",
+    "paired_runs": 72,
+    "baseline_minus_full_mean": -7.565858087488778e-05,
+    "ci95_lower": -0.0013586311711867348,
+    "ci95_upper": 0.0012725689573903885,
+    "conclusion": "inconclusive"
+  },
+  {
+    "baseline": "projected_velocity_cfm",
+    "metric": "maximum_tracking_error_m",
+    "paired_runs": 72,
+    "baseline_minus_full_mean": -0.005080636628118926,
+    "ci95_lower": -0.0085948749139001,
+    "ci95_upper": -0.0013510526987001294,
+    "conclusion": "full_worse"
+  },
+  {
+    "baseline": "projected_velocity_cfm",
+    "metric": "crossing_time_error_s",
+    "paired_runs": 72,
+    "baseline_minus_full_mean": 0.045360396934846725,
+    "ci95_lower": 0.024975584590907762,
+    "ci95_upper": 0.06884314208597916,
+    "conclusion": "full_better"
+  },
+  {
+    "baseline": "projected_velocity_cfm",
+    "metric": "maximum_tilt_degrees",
+    "paired_runs": 72,
+    "baseline_minus_full_mean": 4.608334769061296,
+    "ci95_lower": 1.5761383635660378,
+    "ci95_upper": 7.985779013521771,
+    "conclusion": "full_better"
+  },
+  {
+    "baseline": "boundary_only",
+    "metric": "tracking_rmse_m",
+    "paired_runs": 72,
+    "baseline_minus_full_mean": 0.19480032219632787,
+    "ci95_lower": 0.1552449002917899,
+    "ci95_upper": 0.24151045385315728,
+    "conclusion": "full_better"
+  },
+  {
+    "baseline": "boundary_only",
+    "metric": "maximum_tracking_error_m",
+    "paired_runs": 72,
+    "baseline_minus_full_mean": 0.5039328758286582,
+    "ci95_lower": 0.4016867925417161,
+    "ci95_upper": 0.6242851937993438,
+    "conclusion": "full_better"
+  },
+  {
+    "baseline": "boundary_only",
+    "metric": "crossing_time_error_s",
+    "paired_runs": 64,
+    "baseline_minus_full_mean": 0.14152211049698943,
+    "ci95_lower": 0.0813877122611205,
+    "ci95_upper": 0.2146446083770383,
+    "conclusion": "full_better"
+  },
+  {
+    "baseline": "boundary_only",
+    "metric": "maximum_tilt_degrees",
+    "paired_runs": 72,
+    "baseline_minus_full_mean": 39.6421291203932,
+    "ci95_lower": 36.52816865190637,
+    "ci95_upper": 42.62774609114331,
+    "conclusion": "full_better"
+  },
+  {
+    "baseline": "plus_safe_prior",
+    "metric": "tracking_rmse_m",
+    "paired_runs": 72,
+    "baseline_minus_full_mean": 0.1956933430134538,
+    "ci95_lower": 0.15502511122435295,
+    "ci95_upper": 0.2433094514207953,
+    "conclusion": "full_better"
+  },
+  {
+    "baseline": "plus_safe_prior",
+    "metric": "maximum_tracking_error_m",
+    "paired_runs": 72,
+    "baseline_minus_full_mean": 0.48294546162246477,
+    "ci95_lower": 0.38360214348553934,
+    "ci95_upper": 0.596419665394506,
+    "conclusion": "full_better"
+  },
+  {
+    "baseline": "plus_safe_prior",
+    "metric": "crossing_time_error_s",
+    "paired_runs": 58,
+    "baseline_minus_full_mean": 0.16624511692515004,
+    "ci95_lower": 0.0802713865250409,
+    "ci95_upper": 0.27671084570566185,
+    "conclusion": "full_better"
+  },
+  {
+    "baseline": "plus_safe_prior",
+    "metric": "maximum_tilt_degrees",
+    "paired_runs": 72,
+    "baseline_minus_full_mean": 38.17075661188092,
+    "ci95_lower": 35.735278858301534,
+    "ci95_upper": 40.88385969924165,
+    "conclusion": "full_better"
+  },
+  {
+    "baseline": "plus_cbf",
+    "metric": "tracking_rmse_m",
+    "paired_runs": 72,
+    "baseline_minus_full_mean": 0.1957759980756738,
+    "ci95_lower": 0.1542556507082595,
+    "ci95_upper": 0.24391457755796728,
+    "conclusion": "full_better"
+  },
+  {
+    "baseline": "plus_cbf",
+    "metric": "maximum_tracking_error_m",
+    "paired_runs": 72,
+    "baseline_minus_full_mean": 0.4829271006798897,
+    "ci95_lower": 0.3875271993312968,
+    "ci95_upper": 0.5990168451248642,
+    "conclusion": "full_better"
+  },
+  {
+    "baseline": "plus_cbf",
+    "metric": "crossing_time_error_s",
+    "paired_runs": 58,
+    "baseline_minus_full_mean": 0.16662707753249614,
+    "ci95_lower": 0.08221216533159258,
+    "ci95_upper": 0.28213721032593897,
+    "conclusion": "full_better"
+  },
+  {
+    "baseline": "plus_cbf",
+    "metric": "maximum_tilt_degrees",
+    "paired_runs": 72,
+    "baseline_minus_full_mean": 38.15784762261811,
+    "ci95_lower": 35.692745963857796,
+    "ci95_upper": 40.84216912340173,
+    "conclusion": "full_better"
+  },
+  {
+    "baseline": "plus_kinodynamic",
+    "metric": "tracking_rmse_m",
+    "paired_runs": 72,
+    "baseline_minus_full_mean": 0.003264901082712056,
+    "ci95_lower": 0.0018463431703317256,
+    "ci95_upper": 0.005455147410277563,
+    "conclusion": "full_better"
+  },
+  {
+    "baseline": "plus_kinodynamic",
+    "metric": "maximum_tracking_error_m",
+    "paired_runs": 72,
+    "baseline_minus_full_mean": 0.009993244837786956,
+    "ci95_lower": 0.006551421884091437,
+    "ci95_upper": 0.015117226983916017,
+    "conclusion": "full_better"
+  },
+  {
+    "baseline": "plus_kinodynamic",
+    "metric": "crossing_time_error_s",
+    "paired_runs": 72,
+    "baseline_minus_full_mean": 0.0015140999864487964,
+    "ci95_lower": -0.0008703535568368793,
+    "ci95_upper": 0.004311242230324206,
+    "conclusion": "inconclusive"
+  },
+  {
+    "baseline": "plus_kinodynamic",
+    "metric": "maximum_tilt_degrees",
+    "paired_runs": 72,
+    "baseline_minus_full_mean": 4.934286915531946,
+    "ci95_lower": 4.101113109162632,
+    "ci95_upper": 5.796075771613985,
+    "conclusion": "full_better"
+  }
+]

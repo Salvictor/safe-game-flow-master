@@ -1,0 +1,35 @@
+{
+  "num_conditions": 128,
+  "samples_per_condition": 1,
+  "num_trajectories": 128,
+  "ode_steps": 1,
+  "seed": 403,
+  "trajectory_representation": "boundary_residual",
+  "ode_sampling_seconds": 0.26699310005642474,
+  "ode_milliseconds_per_trajectory": 2.0858835941908183,
+  "end_to_end_planning_seconds": 5.5324045000597835,
+  "end_to_end_milliseconds_per_trajectory": 43.22191015671706,
+  "cbf_enabled": true,
+  "cbf_alpha": 5.0,
+  "cbf_projection": {
+    "projection_calls": 2,
+    "constraints_evaluated": 50944,
+    "active_constraints": 23,
+    "intervention_rate": 0.00045147613065326633,
+    "mean_correction_norm": 0.00020651189752517445,
+    "maximum_correction_norm": 2.278552532196045
+  },
+  "cbf_collocation_factor": 2,
+  "cbf_projection_iterations": 2,
+  "safe_passage_prior": true,
+  "prior_sampling": {
+    "rejected_candidates": 136,
+    "fallback_skeletons": 0
+  },
+  "kinodynamic_projection": true,
+  "kinodynamic_projection_seconds": 5.134223100030795,
+  "mean_residual_scale": 0.010371208190917969,
+  "minimum_residual_scale": 0.004241943359375,
+  "fraction_scaled": 1.0,
+  "velocity_boundary_projection": false
+}

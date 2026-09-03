@@ -1,0 +1,53 @@
+[
+  {
+    "configuration": "1 candidate / 16 steps",
+    "candidates": 1,
+    "ode_steps": 16,
+    "planned_collision_rate": 0.0078125,
+    "planned_margin_violation_rate": 0.8203125,
+    "planned_mean_maximum_speed_mps": 1.3594935225540725,
+    "planned_mean_maximum_acceleration_mps2": 2.1161307896325687,
+    "execution_margin_violation_rate": 0.00390625,
+    "execution_mean_minimum_separation_m": 0.41573611634221597,
+    "execution_hocbf_intervention_rate": 0.1132883393829401,
+    "execution_hocbf_mean_correction": 0.5849377315179394,
+    "execution_expert_rmse_m": 0.011167903730915888,
+    "batch_ms_per_condition": 16.803359765617643,
+    "single_query_median_ms": 63.27369995415211,
+    "single_query_p99_ms": 78.78550403751433
+  },
+  {
+    "configuration": "4 candidates / 8 steps",
+    "candidates": 4,
+    "ode_steps": 8,
+    "planned_collision_rate": 0.0,
+    "planned_margin_violation_rate": 0.515625,
+    "planned_mean_maximum_speed_mps": 1.3585121904846584,
+    "planned_mean_maximum_acceleration_mps2": 2.1386267803017494,
+    "execution_margin_violation_rate": 0.00390625,
+    "execution_mean_minimum_separation_m": 0.42429399619039465,
+    "execution_hocbf_intervention_rate": 0.0967771665154265,
+    "execution_hocbf_mean_correction": 0.48983432454239706,
+    "execution_expert_rmse_m": 0.010561263484738055,
+    "batch_ms_per_condition": 34.71180742144497,
+    "single_query_median_ms": 83.96910014562309,
+    "single_query_p99_ms": 96.00938808172941
+  },
+  {
+    "configuration": "8 candidates / 16 steps",
+    "candidates": 8,
+    "ode_steps": 16,
+    "planned_collision_rate": 0.0,
+    "planned_margin_violation_rate": 0.28125,
+    "planned_mean_maximum_speed_mps": 1.3504280302743603,
+    "planned_mean_maximum_acceleration_mps2": 2.059503597924259,
+    "execution_margin_violation_rate": 0.00390625,
+    "execution_mean_minimum_separation_m": 0.42621086517550033,
+    "execution_hocbf_intervention_rate": 0.08813520871143377,
+    "execution_hocbf_mean_correction": 0.4043431637159471,
+    "execution_expert_rmse_m": 0.009798598314583268,
+    "batch_ms_per_condition": 138.2900910157332,
+    "single_query_median_ms": 252.37960007507354,
+    "single_query_p99_ms": 308.30509603954846
+  }
+]

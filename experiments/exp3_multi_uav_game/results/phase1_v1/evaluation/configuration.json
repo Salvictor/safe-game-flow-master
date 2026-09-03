@@ -1,0 +1,8 @@
+{
+  "checkpoint": "C:\\Users\\Administrator\\Desktop\\safe-game-flow-master\\safe-game-flow-master\\experiments\\exp3_multi_uav_game\\results\\phase1_v1\\model\\checkpoint.pt",
+  "data_dir": "C:\\Users\\Administrator\\Desktop\\safe-game-flow-master\\safe-game-flow-master\\experiments\\exp3_multi_uav_game\\results\\phase1_v1\\data_test",
+  "samples": 256,
+  "ode_steps": 16,
+  "sampling_seconds": 4.3016600999981165,
+  "seed": 53007
+}

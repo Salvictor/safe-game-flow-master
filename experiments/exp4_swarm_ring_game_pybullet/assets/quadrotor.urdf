@@ -1,0 +1,98 @@
+<?xml version="1.0"?>
+<!-- 基础四旋翼：机身 + X 型机臂 + 四桨盘，便于 GIF 中辨认 -->
+<robot name="quadrotor">
+  <link name="base_link">
+    <inertial>
+      <mass value="1.0"/>
+      <inertia ixx="0.018" ixy="0" ixz="0" iyy="0.018" iyz="0" izz="0.028"/>
+    </inertial>
+    <visual>
+      <geometry><box size="0.32 0.32 0.10"/></geometry>
+      <material name="body"><color rgba="0.20 0.22 0.28 1"/></material>
+    </visual>
+    <collision>
+      <geometry><box size="0.32 0.32 0.10"/></geometry>
+    </collision>
+  </link>
+
+  <!-- 四桨盘（薄圆柱，俯视可见） -->
+  <link name="prop_fl">
+    <visual>
+      <origin xyz="0.22 0.22 0.06" rpy="0 0 0"/>
+      <geometry><cylinder radius="0.16" length="0.025"/></geometry>
+      <material name="p1"><color rgba="0.85 0.15 0.15 1"/></material>
+    </visual>
+  </link>
+  <joint name="j_fl" type="fixed"><parent link="base_link"/><child link="prop_fl"/></joint>
+
+  <link name="prop_fr">
+    <visual>
+      <origin xyz="0.22 -0.22 0.06" rpy="0 0 0"/>
+      <geometry><cylinder radius="0.16" length="0.025"/></geometry>
+      <material name="p2"><color rgba="0.15 0.55 0.90 1"/></material>
+    </visual>
+  </link>
+  <joint name="j_fr" type="fixed"><parent link="base_link"/><child link="prop_fr"/></joint>
+
+  <link name="prop_bl">
+    <visual>
+      <origin xyz="-0.22 0.22 0.06" rpy="0 0 0"/>
+      <geometry><cylinder radius="0.16" length="0.025"/></geometry>
+      <material name="p3"><color rgba="0.15 0.75 0.25 1"/></material>
+    </visual>
+  </link>
+  <joint name="j_bl" type="fixed"><parent link="base_link"/><child link="prop_bl"/></joint>
+
+  <link name="prop_br">
+    <visual>
+      <origin xyz="-0.22 -0.22 0.06" rpy="0 0 0"/>
+      <geometry><cylinder radius="0.16" length="0.025"/></geometry>
+      <material name="p4"><color rgba="0.90 0.60 0.10 1"/></material>
+    </visual>
+  </link>
+  <joint name="j_br" type="fixed"><parent link="base_link"/><child link="prop_br"/></joint>
+
+  <!-- X 型机臂 -->
+  <link name="arm_fl">
+    <visual>
+      <origin xyz="0.11 0.11 0" rpy="0 0 0"/>
+      <geometry><cylinder radius="0.022" length="0.44"/></geometry>
+      <material name="arm"><color rgba="0.45 0.45 0.50 1"/></material>
+    </visual>
+  </link>
+  <joint name="ja_fl" type="fixed"><parent link="base_link"/><child link="arm_fl"/><origin rpy="0 0 0.785"/></joint>
+
+  <link name="arm_fr">
+    <visual>
+      <origin xyz="0.11 -0.11 0" rpy="0 0 0"/>
+      <geometry><cylinder radius="0.022" length="0.44"/></geometry>
+    </visual>
+  </link>
+  <joint name="ja_fr" type="fixed"><parent link="base_link"/><child link="arm_fr"/><origin rpy="0 0 -0.785"/></joint>
+
+  <link name="arm_bl">
+    <visual>
+      <origin xyz="-0.11 0.11 0" rpy="0 0 0"/>
+      <geometry><cylinder radius="0.022" length="0.44"/></geometry>
+    </visual>
+  </link>
+  <joint name="ja_bl" type="fixed"><parent link="base_link"/><child link="arm_bl"/><origin rpy="0 0 2.356"/></joint>
+
+  <link name="arm_br">
+    <visual>
+      <origin xyz="-0.11 -0.11 0" rpy="0 0 0"/>
+      <geometry><cylinder radius="0.022" length="0.44"/></geometry>
+    </visual>
+  </link>
+  <joint name="ja_br" type="fixed"><parent link="base_link"/><child link="arm_br"/><origin rpy="0 0 -2.356"/></joint>
+
+  <!-- 机头指示（小三角块） -->
+  <link name="nose">
+    <visual>
+      <origin xyz="0.20 0 0" rpy="0 0 0"/>
+      <geometry><box size="0.10 0.06 0.06"/></geometry>
+      <material name="nose"><color rgba="1.0 1.0 1.0 1"/></material>
+    </visual>
+  </link>
+  <joint name="j_nose" type="fixed"><parent link="base_link"/><child link="nose"/></joint>
+</robot>

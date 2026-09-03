@@ -1,0 +1,15 @@
+{
+  "benchmark_dir": "C:\\Users\\Administrator\\Desktop\\safe-game-flow-master\\safe-game-flow-master\\experiments\\exp1_single_uav_ring_traversal\\results\\baseline_benchmark_v2",
+  "ode_steps": 8,
+  "test_size": 128,
+  "seed": 811,
+  "shared_boundary_checkpoint": "C:\\Users\\Administrator\\Desktop\\safe-game-flow-master\\safe-game-flow-master\\experiments\\exp1_single_uav_ring_traversal\\results\\baseline_benchmark_v2\\models\\boundary_residual_cfm\\checkpoint.pt",
+  "execution_margin_limits": {
+    "speed": 1.95,
+    "acceleration": 2.0
+  },
+  "physical_evaluation_limits": {
+    "speed": 2.0,
+    "acceleration": 3.0
+  }
+}

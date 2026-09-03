@@ -1,0 +1,65 @@
+{
+  "num_samples": 64,
+  "seed": 999,
+  "trajectory_shape": [
+    64,
+    3,
+    100
+  ],
+  "condition_dimension": 23,
+  "successful_ring_traversals": 64,
+  "ring_pass_rate": 1.0,
+  "minimum_barrier": 0.17446068131608322,
+  "mean_minimum_barrier": 0.3200114916090092,
+  "maximum_speed": 1.621570269308281,
+  "maximum_acceleration": 2.613844022166023,
+  "mean_path_length": 3.7341895371613543,
+  "configured_speed_limit": 2.0,
+  "configured_acceleration_limit": 3.0,
+  "dataset_config": {
+    "horizon": 100,
+    "dense_check_points": 500,
+    "max_attempts_per_sample": 100,
+    "ring_center_low": [
+      -0.5,
+      -0.5,
+      1.0
+    ],
+    "ring_center_high": [
+      0.5,
+      0.5,
+      2.0
+    ],
+    "maximum_normal_tilt_deg": 25.0,
+    "major_radius_range": [
+      0.55,
+      0.85
+    ],
+    "tube_radius_range": [
+      0.035,
+      0.065
+    ],
+    "uav_radius": 0.09,
+    "safety_margin": 0.04,
+    "approach_distance_range": [
+      1.4,
+      2.2
+    ],
+    "exit_distance_range": [
+      1.4,
+      2.2
+    ],
+    "crossing_speed_range": [
+      0.35,
+      0.75
+    ],
+    "flight_time_range": [
+      4.0,
+      6.0
+    ],
+    "maximum_speed": 2.0,
+    "maximum_acceleration": 3.0,
+    "crossing_offset_fraction": 0.35,
+    "endpoint_offset_fraction": 1.4
+  }
+}

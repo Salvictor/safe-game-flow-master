@@ -1,0 +1,24 @@
+{
+  "platform": "Windows-10-10.0.19045-SP0",
+  "python": "3.11.8",
+  "torch": "2.11.0+cpu",
+  "cuda_available": false,
+  "device": "cpu",
+  "cpu_count": 12,
+  "configuration": {
+    "work_dir": "C:\\Users\\Administrator\\Desktop\\safe-game-flow-master\\safe-game-flow-master\\experiments\\exp1_single_uav_ring_traversal\\results\\baseline_benchmark_v1",
+    "train_size": 512,
+    "test_size": 128,
+    "epochs": 100,
+    "batch_size": 64,
+    "hidden": 64,
+    "blocks": 3,
+    "time_emb_dim": 64,
+    "ode_steps": 20,
+    "train_seed": 101,
+    "test_seed": 202,
+    "model_seed": 303,
+    "cpu": true,
+    "skip_training": false
+  }
+}
